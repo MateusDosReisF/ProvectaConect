@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure--ru+ua$3!a5s3y==%rm*w2$f*$cz#4aqr8+a_l278%jpj8ae@k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['provectaconect.onrender.com', 'localhost', '127.0.0.1','*.*']
+ALLOWED_HOSTS = ['provectaconect.onrender.com', 'localhost']
 
 
 
@@ -122,7 +122,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
