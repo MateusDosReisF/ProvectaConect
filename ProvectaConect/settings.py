@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure--ru+ua$3!a5s3y==%rm*w2$f*$cz#4aqr8+a_l278%jpj8ae@k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','provectaconect.onrender.com']
 
 
 
